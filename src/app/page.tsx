@@ -369,7 +369,7 @@ export default function Home() {
                 step: "01",
                 title: "Diseño Personalizado",
                 description: "Creamos un diseño único según tus necesidades y espacio disponible.",
-                image: "https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=800&h=600&fit=crop"
+                image: "https://i.imgur.com/Iucyws4.png"
               },
               {
                 step: "02",
