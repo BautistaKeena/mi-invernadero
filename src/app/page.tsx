@@ -204,7 +204,7 @@ export default function Home() {
               <h1 className="text-2xl font-montserrat font-bold text-white">
                 Chanyman Greengarden
               </h1>
-              <p className="text-sm text-muted-foreground">Cultiva tus sueños</p>
+              <p className="text-sm text-muted-foreground">Cultiva tus huevos</p>
             </div>
           </div>
         </motion.div>
