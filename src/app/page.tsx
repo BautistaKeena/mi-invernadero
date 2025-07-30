@@ -54,8 +54,8 @@ const FloatingParticles = ({ count = 15 }: { count?: number }) => {
 
 // Componente de botón flotante de WhatsApp
 const WhatsAppButton = () => {
-  const phoneNumber = "5491124550112"; // Número de teléfono (cambiar por el real de Chanyman Greengarden)
-  const message = "¡Hola! Me interesa conocer más sobre los invernaderos artesanales de Chanyman Greengarden. Me gustaría recibir información sobre precios, tamaños disponibles y proceso de instalación. ¡Gracias!";
+  const phoneNumber = "5491165850112"; // Número de teléfono (cambiar por el real de Chanyman Greengarden)
+  const message = "¡Hola! Me interesa conocer más sobre los invernaderos artesanales de Chanyman Greengarden. Me gustiaría hablar con wilson churchil y que me wilsee las nalgas. ¡CHUPETE EN EL CULO!";
 
   const handleWhatsAppClick = () => {
     const encodedMessage = encodeURIComponent(message);
