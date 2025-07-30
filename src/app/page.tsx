@@ -381,7 +381,7 @@ export default function Home() {
                 step: "03",
                 title: "Soldadura Experta",
                 description: "Soldamos cada junta con técnica profesional para máxima durabilidad.",
-                image: "https://thumbs.dreamstime.com/b/close-up-professional-welder-safety-mask-gloves-performing-welding-bright-sparks-factory-workshop-industrial-work-384038427.jpg"
+                image: "https://i.imgur.com/j9ZSZbf.jpeg"
               },
               {
                 step: "04",
