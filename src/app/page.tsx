@@ -375,7 +375,7 @@ export default function Home() {
                 step: "02",
                 title: "Corte de Hierro",
                 description: "Cortamos y preparamos la estructura de hierro con precisión artesanal.",
-                image: "https://i.imgur.com/Iucyws4.png"
+                image: "https://i.imgur.com/pNLxFd4.png"
               },
               {
                 step: "03",
