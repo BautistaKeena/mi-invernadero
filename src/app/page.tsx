@@ -375,13 +375,13 @@ export default function Home() {
                 step: "02",
                 title: "Corte de Hierro",
                 description: "Cortamos y preparamos la estructura de hierro con precisión artesanal.",
-                image: "https://i.imgur.com/Iucyws4.png"
+                image: "https://i.imgur.com/pNLxFd4.png"
               },
               {
                 step: "03",
                 title: "Soldadura Experta",
                 description: "Soldamos cada junta con técnica profesional para máxima durabilidad.",
-                image: "https://thumbs.dreamstime.com/b/close-up-professional-welder-safety-mask-gloves-performing-welding-bright-sparks-factory-workshop-industrial-work-384038427.jpg"
+                image: "https://i.imgur.com/j9ZSZbf.jpeg"
               },
               {
                 step: "04",
