@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Spline from "@splinetool/react-spline/next";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -341,14 +340,6 @@ export default function Home() {
 
           </motion.div>
         </div>
-      </section>
-
-      {/* 3D Demo Section */}
-      <section className="relative w-full h-[600px]">
-        <Spline
-          scene="https://prod.spline.design/CpEDx75DIM1oGHaG/scene.splinecode"
-          className="absolute inset-0 w-full h-full"
-        />
       </section>
 
       {/* Artisanal Process Section */}
