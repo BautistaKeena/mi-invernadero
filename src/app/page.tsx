@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
+import ScrollingCarousel from "@/components/ScrollingCarousel";
 import { Home as GreenhouseIcon, Shield, Sun, Droplets, Loader2, CheckCircle, AlertCircle, Check, Wrench, Truck, Building2, Settings, Ruler, Home as HomeIcon, Image, Clock, MessageCircle } from "lucide-react";
 import { useState, useEffect } from "react";
 import emailjs from '@emailjs/browser';
@@ -504,36 +505,10 @@ export default function Home() {
                   {/* Photo Carousel Placeholder */}
                   <div className="mb-6 md:mb-8">
                     <h5 className="text-base md:text-lg font-semibold text-white mb-3 md:mb-4">Galería de fotos</h5>
-                    <div className="flex gap-2 md:gap-3 overflow-x-auto scrollbar-hide">
-                      {[
-                        "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=300&fit=crop",
-                        "https://images.unsplash.com/photo-1525498128493-380d1990a112?w=400&h=300&fit=crop",
-                        "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400&h=300&fit=crop",
-                        "https://images.unsplash.com/photo-1440690119871-016930041d93?w=400&h=300&fit=crop",
-                        "https://images.unsplash.com/photo-1589923188900-85dae523342b?w=400&h=300&fit=crop"
-                      ].map((img, i) => (
-                        <motion.div
-                          key={i}
-                          className="flex-shrink-0 w-16 h-12 md:w-20 md:h-16 border border-green-natural/40 rounded-lg overflow-hidden"
-                          animate={{
-                            x: [0, 2, 0, -2, 0],
-                            scale: [1, 1.02, 1, 1.02, 1]
-                          }}
-                          transition={{
-                            duration: 4,
-                            delay: i * 0.5,
-                            repeat: Infinity,
-                            ease: "easeInOut"
-                          }}
-                        >
-                          <img
-                            src={img}
-                            alt={`Invernadero ${i + 1}`}
-                            className="w-full h-full object-cover"
-                          />
-                        </motion.div>
-                      ))}
-                    </div>
+                    <ScrollingCarousel
+                      images={["https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=300&fit=crop","https://images.unsplash.com/photo-1525498128493-380d1990a112?w=400&h=300&fit=crop","https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400&h=300&fit=crop","https://images.unsplash.com/photo-1440690119871-016930041d93?w=400&h=300&fit=crop","https://images.unsplash.com/photo-1589923188900-85dae523342b?w=400&h=300&fit=crop"]}
+                      className="mt-2"
+                    />
                   </div>
 
                   {/* Features List */}
@@ -616,36 +591,10 @@ export default function Home() {
                   {/* Photo Carousel Placeholder */}
                   <div className="mb-6 md:mb-8">
                     <h5 className="text-base md:text-lg font-semibold text-white mb-3 md:mb-4">Galería de proyectos</h5>
-                    <div className="flex gap-2 md:gap-3 overflow-x-auto scrollbar-hide">
-                      {[
-                        "https://images.unsplash.com/photo-1416402168864-5bbe5aa33a0d?w=400&h=300&fit=crop",
-                        "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop",
-                        "https://images.unsplash.com/photo-1592415486689-125cbbfcbee2?w=400&h=300&fit=crop",
-                        "https://images.unsplash.com/photo-1593113598332-cd288d649433?w=400&h=300&fit=crop",
-                        "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=300&fit=crop"
-                      ].map((img, i) => (
-                        <motion.div
-                          key={i}
-                          className="flex-shrink-0 w-16 h-12 md:w-20 md:h-16 border border-green-natural/40 rounded-lg overflow-hidden"
-                          animate={{
-                            x: [0, -2, 0, 2, 0],
-                            scale: [1, 1.02, 1, 1.02, 1]
-                          }}
-                          transition={{
-                            duration: 4.5,
-                            delay: i * 0.3,
-                            repeat: Infinity,
-                            ease: "easeInOut"
-                          }}
-                        >
-                          <img
-                            src={img}
-                            alt={`Proyecto personalizado ${i + 1}`}
-                            className="w-full h-full object-cover"
-                          />
-                        </motion.div>
-                      ))}
-                    </div>
+                    <ScrollingCarousel
+                      images={["https://images.unsplash.com/photo-1416402168864-5bbe5aa33a0d?w=400&h=300&fit=crop","https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop","https://images.unsplash.com/photo-1592415486689-125cbbfcbee2?w=400&h=300&fit=crop","https://images.unsplash.com/photo-1593113598332-cd288d649433?w=400&h=300&fit=crop","https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=300&fit=crop"]}
+                      className="mt-2"
+                    />
                   </div>
 
                   {/* Features List */}
