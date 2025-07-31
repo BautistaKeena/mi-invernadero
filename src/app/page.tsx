@@ -317,24 +317,31 @@ export default function Home() {
               <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent" />
             </div>
 
-            {/* Floating Feature Card */}
-            <div className="absolute -bottom-6 left-0 right-0 flex justify-center">
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.6, delay: 1 }}
-                className="bg-card border border-green-natural/20 p-6 shadow-xl rounded-[20px] cursor-pointer transition-all duration-300 hover:shadow-2xl hover:shadow-green-natural/20 hover:scale-105 hover:bg-gradient-to-br hover:from-card hover:to-green-natural/5 hover:border-green-natural/40"
-                onClick={() =>
-                  document.getElementById("proceso-artesanal")?.scrollIntoView({
-                    behavior: "smooth",
-                  })
-                }
-              >
-              <div className="text-center">
-                <div className="font-bold text-green-natural text-[20px] py-[0px]">100%</div>
-                <div className="text-muted-foreground text-[12px]">Artesanal</div>
-              </div>
-              </motion.div>
+            {/* Floating Feature Badges */}
+            <div className="absolute -bottom-6 left-0 right-0 flex justify-center gap-4">
+              {[
+                { title: "100%", subtitle: "Artesanal" },
+                { title: "Envío", subtitle: "Nacional" },
+                { title: "Instalación", subtitle: "Incluida" },
+              ].map((badge, index) => (
+                <motion.div
+                  key={index}
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.6, delay: 1 + index * 0.1 }}
+                  className="bg-card border border-green-natural/20 p-6 shadow-xl rounded-[20px] cursor-pointer transition-all duration-300 hover:shadow-2xl hover:shadow-green-natural/20 hover:scale-105 hover:bg-gradient-to-br hover:from-card hover:to-green-natural/5 hover:border-green-natural/40 shine-effect"
+                  onClick={() =>
+                    document.getElementById("proceso-artesanal")?.scrollIntoView({
+                      behavior: "smooth",
+                    })
+                  }
+                >
+                  <div className="text-center">
+                    <div className="font-bold text-green-natural text-[20px] py-[0px]">{badge.title}</div>
+                    <div className="text-muted-foreground text-[12px]">{badge.subtitle}</div>
+                  </div>
+                </motion.div>
+              ))}
             </div>
 
 
