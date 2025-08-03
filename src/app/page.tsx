@@ -592,7 +592,7 @@ export default function Home() {
                   <div className="mb-6 md:mb-8">
                     <h5 className="text-base md:text-lg font-semibold text-white mb-3 md:mb-4">Galería de proyectos</h5>
                     <ScrollingCarousel
-                      images={["https://images.unsplash.com/photo-1416402168864-5bbe5aa33a0d?w=400&h=300&fit=crop","https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=300&fit=crop","https://images.unsplash.com/photo-1592415486689-125cbbfcbee2?w=400&h=300&fit=crop","https://images.unsplash.com/photo-1593113598332-cd288d649433?w=400&h=300&fit=crop","https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=300&fit=crop"]}
+                      images={["https://i.imgur.com/JPu4hOu.jpeg","https://i.imgur.com/lUaaAiQ.jpeg","https://i.imgur.com/eKZzICE.jpeg","https://i.imgur.com/7wxKwXw.jpeg",""]}
                       className="mt-2"
                     />
                   </div>
