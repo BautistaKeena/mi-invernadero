@@ -492,7 +492,7 @@ export default function Home() {
 
                   {/* Image Cover */}
                   <div className="mb-6 md:mb-8 relative">
-                    <div className="h-32 md:h-40 lg:h-48 rounded-2xl border-2 border-green-natural/40 relative overflow-hidden">
+                    <div className="h-48 md:h-56 lg:h-64 rounded-2xl border-2 border-green-natural/40 relative overflow-hidden">
                       <img
                         src="https://i.imgur.com/uwyysqy.png"
                         alt="Invernadero Estándar - Chanyman Greengarden"
@@ -574,7 +574,7 @@ export default function Home() {
 
                   {/* Image Cover */}
                   <div className="mb-6 md:mb-8 relative">
-                    <div className="h-32 md:h-40 lg:h-48 rounded-2xl border-2 border-green-natural/40 relative overflow-hidden">
+                    <div className="h-48 md:h-56 lg:h-64 rounded-2xl border-2 border-green-natural/40 relative overflow-hidden">
                       <img
                         src="https://i.imgur.com/1jtBCr3.jpeg"
                         alt="Invernadero Personalizado - Chanyman Greengarden"

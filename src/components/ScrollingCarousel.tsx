@@ -19,7 +19,7 @@ export default function ScrollingCarousel({ images, duration = 20, className }: 
         {duplicated.map((img, idx) => (
           <div
             key={idx}
-            className="flex-shrink-0 w-16 h-12 md:w-20 md:h-16 border border-green-natural/40 rounded-lg overflow-hidden"
+            className="flex-shrink-0 w-20 h-16 md:w-24 md:h-20 border border-green-natural/40 rounded-lg overflow-hidden"
           >
             <img src={img} alt={`imagen ${idx + 1}`} className="w-full h-full object-cover" />
           </div>
