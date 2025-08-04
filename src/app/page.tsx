@@ -494,7 +494,7 @@ export default function Home() {
                   <div className="mb-6 md:mb-8 relative">
                     <div className="h-32 md:h-40 lg:h-48 rounded-2xl border-2 border-green-natural/40 relative overflow-hidden">
                       <img
-                        src="https://m.media-amazon.com/images/I/910qWdhPaDL.jpg"
+                        src="https://i.imgur.com/uwyysqy.png"
                         alt="Invernadero Estándar - Chanyman Greengarden"
                         className="w-full h-full object-cover"
                       />
@@ -506,7 +506,7 @@ export default function Home() {
                   <div className="mb-6 md:mb-8">
                     <h5 className="text-base md:text-lg font-semibold text-white mb-3 md:mb-4">Galería de fotos</h5>
                     <ScrollingCarousel
-                      images={["https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=300&fit=crop","https://images.unsplash.com/photo-1525498128493-380d1990a112?w=400&h=300&fit=crop","https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400&h=300&fit=crop","https://images.unsplash.com/photo-1440690119871-016930041d93?w=400&h=300&fit=crop","https://images.unsplash.com/photo-1589923188900-85dae523342b?w=400&h=300&fit=crop"]}
+                      images={["https://i.imgur.com/nDzMftc.jpeg","https://i.imgur.com/AOUzKZb.jpeg","https://i.imgur.com/jPy4WET.jpeg","https://i.imgur.com/AcH74od.jpeg","https://i.imgur.com/BGFZ9eF.jpeg","https://i.imgur.com/jEBSMY5.jpeg"]}
                       className="mt-2"
                     />
                   </div>
