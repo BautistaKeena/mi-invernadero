@@ -310,7 +310,7 @@ export default function Home() {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://m.media-amazon.com/images/I/910qWdhPaDL.jpg"
+                src="https://i.imgur.com/ygCZXWv.jpeg"
                 alt="Chanyman Greengarden - Estructura de hierro con policarbonato"
                 className="w-full h-auto"
               />
