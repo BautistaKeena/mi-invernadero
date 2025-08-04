@@ -515,7 +515,7 @@ export default function Home() {
                   <div className="space-y-3 md:space-y-4 mb-6 md:mb-8">
                     <div className="flex items-center gap-2 md:gap-3 text-white text-sm md:text-base">
                       <Check className="text-green-natural w-4 h-4 md:w-5 md:h-5 flex-shrink-0" />
-                      <span>Medidas fijas: 240 cm x 230 cm x 220 cm</span>
+                      <span>Medidas fijas: 180 cm x 205 cm x 235 cm</span>
                     </div>
                     <div className="flex items-center gap-2 md:gap-3 text-white text-sm md:text-base">
                       <Wrench className="text-green-natural w-4 h-4 md:w-5 md:h-5 flex-shrink-0" />
