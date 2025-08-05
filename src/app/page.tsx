@@ -113,9 +113,9 @@ export default function Home() {
 
   // Configuración de EmailJS - IMPORTANTE: Reemplazar con tus datos reales
   // Consulta el archivo emailjs-config.md para instrucciones detalladas
-  const EMAILJS_SERVICE_ID = "service_ld2x70f"; // Tu Service ID de EmailJS
-  const EMAILJS_TEMPLATE_ID = "template_b801gqp"; // Tu Template ID de EmailJS
-  const EMAILJS_PUBLIC_KEY = "GQygEGfa-ebgekUKf"; // Tu Public Key de EmailJS
+  const EMAILJS_SERVICE_ID = "service_g2p3pmk"; // Tu Service ID de EmailJS
+  const EMAILJS_TEMPLATE_ID = "template_1fbcq05"; // Tu Template ID de EmailJS
+  const EMAILJS_PUBLIC_KEY = "3zFm2u6RWRowBTyeg"; // Tu Public Key de EmailJS
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
