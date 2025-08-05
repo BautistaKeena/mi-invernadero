@@ -523,11 +523,11 @@ export default function Home() {
                     </div>
                     <div className="flex items-center gap-2 md:gap-3 text-white text-sm md:text-base">
                       <Truck className="text-green-natural w-4 h-4 md:w-5 md:h-5 flex-shrink-0" />
-                      <span>Envío inmediato (disponible en stock)</span>
+                      <span>Envío en corto plazo</span>
                     </div>
                     <div className="flex items-center gap-2 md:gap-3 text-white text-sm md:text-base">
                       <Building2 className="text-green-natural w-4 h-4 md:w-5 md:h-5 flex-shrink-0" />
-                      <span>Puerta centrada y ventanas plegables</span>
+                      <span>Puerta centrada y 2 ventanas laterales</span>
                     </div>
                     <div className="flex items-center gap-2 md:gap-3 text-white text-sm md:text-base">
                       <Settings className="text-green-natural w-4 h-4 md:w-5 md:h-5 flex-shrink-0" />
