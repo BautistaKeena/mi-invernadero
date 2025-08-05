@@ -388,7 +388,7 @@ export default function Home() {
                 step: "04",
                 title: "Instalación Final",
                 description: "Instalamos las placas de policarbonato y realizamos los acabados finales.",
-                image: "https://m.media-amazon.com/images/I/910qWdhPaDL.jpg"
+                image: "https://i.imgur.com/ojkrIzn.jpeg"
               }
             ].map((process, index) => (
               <motion.div
