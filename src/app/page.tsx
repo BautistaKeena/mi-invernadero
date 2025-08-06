@@ -197,7 +197,7 @@ export default function Home() {
         >
           <div className="flex items-center space-x-3">
             <Image
-              src="/logo.svg"
+              src="https://i.imgur.com/eo3sva9.png"
               alt="Chanyman Greengarden"
               width={48}
               height={48}
