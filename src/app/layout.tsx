@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   title: "Chanyman Greengarden - Invernaderos Artesanales de Calidad",
   description: "Descubre nuestros invernaderos artesanales con estructura de hierro y placas de policarbonato. Diseño elegante y funcional para tu jardín.",
   icons: {
-    icon: "/favicon.svg",
+    icon: "/Chanyman-Greengardem-logo.ico",
   },
 };
 
