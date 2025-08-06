@@ -7,7 +7,8 @@ import { Label } from "@/components/ui/label";
 import { Textarea } from "@/components/ui/textarea";
 import { Card, CardContent } from "@/components/ui/card";
 import ScrollingCarousel from "@/components/ScrollingCarousel";
-import { Home as GreenhouseIcon, Shield, Sun, Droplets, Loader2, CheckCircle, AlertCircle, Check, Wrench, Truck, Building2, Settings, Ruler, Home as HomeIcon, Image, Clock, MessageCircle } from "lucide-react";
+import { Home as GreenhouseIcon, Shield, Sun, Droplets, Loader2, CheckCircle, AlertCircle, Check, Wrench, Truck, Building2, Settings, Ruler, Home as HomeIcon, Image as ImageIcon, Clock, MessageCircle } from "lucide-react";
+import Image from "next/image";
 import { useState, useEffect } from "react";
 import emailjs from '@emailjs/browser';
 
@@ -196,7 +197,7 @@ export default function Home() {
         >
           <div className="flex items-center space-x-3">
             <div className="w-12 h-12 bg-green-natural rounded-xl flex items-center justify-center relative">
-              <GreenhouseIcon className="h-6 w-6 text-white" />
+              <Image src="/greenhouse.svg" alt="Invernadero" width={24} height={24} />
               <div className="absolute -bottom-1 -right-1 bg-white text-green-natural text-xs font-bold px-1 py-0.5 rounded text-[8px]">
                 CG
               </div>
@@ -608,7 +609,7 @@ export default function Home() {
                       <span>Elegís las dimensiones exactas</span>
                     </div>
                     <div className="flex items-center gap-2 md:gap-3 text-white text-sm md:text-base">
-                      <Image className="text-green-natural w-4 h-4 md:w-5 md:h-5 flex-shrink-0" />
+                      <ImageIcon className="text-green-natural w-4 h-4 md:w-5 md:h-5 flex-shrink-0" />
                       <span>Opciones de puertas, ventanas y altura</span>
                     </div>
                     <div className="flex items-center gap-2 md:gap-3 text-white text-sm md:text-base">
