@@ -197,7 +197,7 @@ export default function Home() {
         >
           <div className="flex items-center space-x-3">
             <div className="w-12 h-12 bg-green-natural rounded-xl flex items-center justify-center relative">
-              <Image src="/greenhouse.svg" alt="Invernadero" width={24} height={24} />
+              <Image src="https://i.imgur.com/eo3sva9.png" alt="Invernadero" width={24} height={24} />
               <div className="absolute -bottom-1 -right-1 bg-white text-green-natural text-xs font-bold px-1 py-0.5 rounded text-[8px]">
                 CG
               </div>
